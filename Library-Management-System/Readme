@@ -1,0 +1,14 @@
+Create a database of your choice and modify the "Books.java" file accordingly.
+
+The mysql code i used here is ....
+
+create database libraryManagement;
+use libraryManagement;
+create table books(id int PRIMARY KEY AUTO_INCREMENT,name varchar(100),version int,quantity int);
+insert into books values(1,'Java_Fundamentals',4,20);
+insert into books values(3,'Java_Fundamentals',3,10);
+insert into books values(2,'C++_Fundamentals',6,30);
+select*from books;
+
+
+Happy Coding....
