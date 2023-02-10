@@ -1,9 +1,9 @@
 package backend;
 import java.sql.*;
 public class Books {
-	String url="jdbc:mysql://localhost:3306/libraryManagement";
-	String uname="root";
-	String pass="9711";
+	String url="jdbc:mysql://localhost:3306/libraryManagement";//type the url of your database
+	String uname="root";//type your username
+	String pass="";//type your password
 	
 	
 	public void getBookList() throws ClassNotFoundException, SQLException {
